@@ -1,6 +1,7 @@
 // src/routes/workoutRoutes.js
 import express from 'express';
 import Workout from '../models/Workout.js';
+import { getAllWorkouts, getWorkoutById, createWorkout } from '../controllers/workoutController.js';
 
 
 // Maak router
